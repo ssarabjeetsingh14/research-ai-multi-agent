@@ -15,6 +15,7 @@ llm = ChatGroq(
     model="openai/gpt-oss-20b",
     temperature=0,
     max_tokens= 1500
+    reasoning_effort="low"
 )
 
 
